@@ -72,72 +72,32 @@ a{
     color: #2b05ff;
 }
 
-/*------------------------Login----------------------------*/
-.box-login{
-    background-color: rgba(184, 184, 184, 0.6);
-    position: fixed;
-    width: 430px;
-    margin-top: 15%;
-    margin-left: 35%;
-    border: 3px solid black;
-    padding: 20px 40px;
+/*------------------------Main content----------------------------*/
+.main-content{
+    margin: 0 auto;
+    padding: 20px;
+}
+.preview-content{
     text-align: center;
-    font-size: 120%px;
 }
-
-.title-login{
-    font-size: 40px;
-    color: black;
-}
-
-input[type=text], input[type=password] {
-    width: 80%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    background: none;
-    border:none;
-    border-bottom: 2px solid gray;
-    font-size: 100%;
-    color: black;
-    padding-left: 0;
-}
-
-::placeholder{
-    color: black;
-    font-size: 80%;
-}
-
-input, textarea{
-    outline: none;
-}
-
-.check-box{
-    text-align: center;
+.preview-content p{
+    color: blue;
     font-size: 20px;
 }
-
-input[type=checkbox]{
-    width: 20px;
-    height: 20px;
-    line-height: 25px;
-    margin-right: 10px;
+.video-demo{
+    text-align: center;
+}
+/*------------------------About us----------------------------*/
+.about-us{
+    text-align: center;
+    font-family: 'Indie Flower';
+    margin-bottom: 0;
 }
 
-button{
-    padding: 2px 15px;
-}
-
-button[type=submit]{
-    font-size: 100%;
-    background: none;
-    margin: 20px 0;
-}
-
-.no-account{
-    font-size: 15px;
-}
-
-.no-account a{
-    color: #0059ff;
+/*---------------------------Footer-------------------------------*/
+footer{
+    text-align: center;
+    background-color: #777777;
+    color: white;
+    padding: 8px;
 }
