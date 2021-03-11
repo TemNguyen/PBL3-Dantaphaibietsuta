@@ -1,0 +1,103 @@
+/* ---------------------Default setup-----------------------*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* ---------------------Reuseable component-----------------------*/
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.btn{
+    text-decoration: none;
+    color: #cfe765;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+/*------------------------Header----------------------------*/
+header{
+    background-image: linear-gradient(rgba(229, 252, 137, 0.5) 55%, rgba(169, 243, 106, 0.65)), url("/img/background-1.png");
+    /* filter: opacity(80%); */
+    background-size: cover;
+    background-position: center;
+    background-attachment:inherit;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+    margin-left: 10px;
+    list-style: none;
+    display: inline;
+}
+
+.logo a{
+    color: #ff0000;
+}
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.main-nav li{
+    display: inline;
+    margin-right: 30px;
+}
+
+.introbtn{
+    color: #2b05ff;
+}
+
+/*------------------------Main content----------------------------*/
+.main-content{
+    margin: 0 auto;
+    padding: 20px;
+}
+.preview-content{
+    text-align: center;
+}
+.preview-content p{
+    color: blue;
+    font-size: 20px;
+}
+.video-demo{
+    text-align: center;
+}
+/*------------------------About us----------------------------*/
+.about-us{
+    text-align: center;
+    font-family: 'Indie Flower';
+    margin-bottom: 0;
+}
+
+/*---------------------------Footer-------------------------------*/
+footer{
+    text-align: center;
+    background-color: #777777;
+    color: white;
+    padding: 8px;
+}
