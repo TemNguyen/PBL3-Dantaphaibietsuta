@@ -33,7 +33,7 @@ body{
 }
 /*------------------------Header----------------------------*/
 header{
-    background-image: linear-gradient(rgba(229, 252, 137, 0.5) 55%, rgba(169, 243, 106, 0.65)), url("../img/background-1.png");
+    background-image: linear-gradient(rgba(229, 252, 137, 0.5) 55%, rgba(169, 243, 106, 0.65)), url("/img/background-1.png");
     /* filter: opacity(80%); */
     background-size: cover;
     background-position: center;
