@@ -18,9 +18,7 @@ header {
     font-family: Lato;
     font-size: 20px;
     line-height: 25px;
-    background-image: url("../Assets/img/background.png");
-    filter: opacity(80%);
-
+    background-image: linear-gradient(rgba(229, 252, 137, 0.5) 55%, rgba(169, 243, 106, 0.65)), url("../Assets/img/background.png");
     height: 100vh;
     background-size: cover;
     background-position: center;
