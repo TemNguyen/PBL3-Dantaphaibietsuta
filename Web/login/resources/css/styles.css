@@ -74,15 +74,18 @@ a{
 
 /*------------------------Login----------------------------*/
 .box-login{
-    background-color: rgba(184, 184, 184, 0.6);
+    /* background-color: rgba(184, 184, 184, 0.6); */
+    background-color: whitesmoke;
     position: fixed;
     width: 430px;
     margin-top: 15%;
     margin-left: 35%;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     padding: 20px 40px;
     text-align: center;
     font-size: 120%px;
+    border-radius: 20px;
+    font-family: 'Roboto Slab', serif;
 }
 
 .title-login{
@@ -113,8 +116,10 @@ input, textarea{
 }
 
 .check-box{
-    text-align: center;
+    text-align: left;
     font-size: 20px;
+    margin-left: 34px;
+    margin-top: 8px;
 }
 
 input[type=checkbox]{
@@ -126,12 +131,15 @@ input[type=checkbox]{
 
 button{
     padding: 2px 15px;
+    border-radius: 10px;
 }
 
 button[type=submit]{
     font-size: 100%;
     background: none;
+    background-color: #4796ff;
     margin: 20px 0;
+    color: aliceblue;
 }
 
 .no-account{

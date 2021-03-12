@@ -1,10 +1,47 @@
 ﻿<!doctype html>
 <html>
 <head>
-    <title>Home page</title>
-    <link rel="stylesheet" href="~/Content/StyleSheet1.css" />
+    <title>Dân ta phải biết sử ta</title>
+    <link rel="stylesheet" href="~/Content/Homestyle.css" />
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <header>
+        <div class="nav-menu">
+            <div class="logo">
+                <ul>
+                    <li class="title"><a href="#"><i>Dân ta phải biết sử ta</i></a></li>
+                </ul>
+            </div>
+            <div class="nav-btn">
+                <ul>
+                    <li class="home-page"><a href="#">Trang chủ</a></li>
+                    <li class="contact"><a href="#">Liên hệ</a></li>
+                    <li class="login"><a href="@Url.Action("Login","Home")">Đăng nhập</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="main-content">
+            <div class="preview-content">
+                <p>
+                    Với niềm tự hào cháy bỏng đối với lịch sử hào hùng của nước nhà,<br />
+                    "Dân ta phải biết sử ta" sẽ đem lại kiến thức cho những con người <br />
+                    muốn trau dồi kiến thức về lịch sử nước nhà.
+                </p>
+            </div>
+            <div class="video-demo">
+                <video width="640" height="400" controls>
+                    <source src="~/Assets/video/TrelloTutorial.mp4" />
+                </video>
+            </div>
+        </div>
+        <ul class="about-us">
+            <p>
+                PBL3: Công nghệ phần mềm <br>
+                GVHD: Lê Thị Mỹ Hạnh <br>
+                SVTH: Lê Thanh Long - Võ Văn Thành - Nguyễn Duy Thịnh
+            </p>
+        </ul>
+    </header>
 </body>
 </html>

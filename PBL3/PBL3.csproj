@@ -127,12 +127,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\img\background-1.png" />
+    <Content Include="Assets\img\background.png" />
+    <Content Include="Assets\video\TrelloTutorial.mp4" />
+    <Content Include="Content\Loginstyle.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="Content\StyleSheet1.css" />
+    <Content Include="Content\Homestyle.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Scripts\controller.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -146,6 +147,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Assets\vendors\" />
     <Folder Include="Models\" />
+    <Folder Include="Scripts\" />
     <Folder Include="Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
@@ -153,6 +155,7 @@
     <None Include="packages.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -83,6 +83,8 @@ a{
 .preview-content p{
     color: blue;
     font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+
 }
 .video-demo{
     text-align: center;
