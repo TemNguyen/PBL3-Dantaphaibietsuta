@@ -78,10 +78,11 @@ a{
     padding: 20px;
 }
 .preview-content{
+    font-family: 'PT Serif Caption', serif;
     text-align: center;
 }
 .preview-content p{
-    color: blue;
+    color: rgb(51, 22, 212);
     font-size: 20px;
 }
 .video-demo{
@@ -92,6 +93,7 @@ a{
     text-align: center;
     font-family: 'Indie Flower';
     margin-bottom: 0;
+    color: black;
 }
 
 /*---------------------------Footer-------------------------------*/
