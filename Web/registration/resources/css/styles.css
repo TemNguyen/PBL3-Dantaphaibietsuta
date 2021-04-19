@@ -73,14 +73,14 @@ a{
     color: #2b05ff;
 }
 
-/*------------------------Login----------------------------*/
-.box-login{
+/*------------------------Registation----------------------------*/
+.box-registration{
     font-family: 'Oxygen', sans-serif;
     background-color: rgb(255, 255, 255);
     width: 430px;
     margin: 0 auto;
     /* margin-top: 15%; */
-    transform: translateY(75%);
+    transform: translateY(40%);
     border: 3px solid 0;
     border-radius: 5px;
     padding: 20px 40px;
@@ -88,7 +88,7 @@ a{
     font-size: 120%;
 }
 
-.title-login{
+.title-registration{
     font-size: 40px;
     color: black;
 }
@@ -97,7 +97,7 @@ form{
     font-size: 90%;
 }
 
-input[type=text], input[type=password] {
+input[type=text], input[type=password], input[type=email] {
     width: 80%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -124,14 +124,7 @@ input, textarea{
     font-size: 20px;
 }
 
-input[type=checkbox]{
-    width: 20px;
-    height: 20px;
-    line-height: 25px;
-    margin-right: 10px;
-}
-
-.box-login .btn{
+.box-registration .btn{
     background-color: rgb(0, 132, 255);
     color: white;
     border: none;

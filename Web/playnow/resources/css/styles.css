@@ -33,12 +33,13 @@ body{
 }
 /*------------------------Header----------------------------*/
 header{
-    background-image: linear-gradient(rgba(229, 252, 137, 0.5) 55%, rgba(169, 243, 106, 0.65)), url("/img/background-1.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(252, 252, 252, 0.2)), url("/img/background-2-1.jpg");
     /* filter: opacity(80%); */
-    background-size: cover;
+    background-size:cover;
     background-position: center;
     background-attachment:inherit;
     height: 100vh;
+    width: 100%;
 }
 
 a{
@@ -54,47 +55,42 @@ a{
 }
 
 .logo a{
-    color: #ff0000;
+    color: #FCE300;
 }
 
 .main-nav{
+    display: flex;
     float: right;
-    list-style: none;
     margin-top: 20px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.main-nav--1{
+    display: flex;
+}
+
+.main-nav--1-home, .main-nav--1-about{
+    display: inline-block;
+    margin-right: 30px;
 }
 
 .main-nav li{
     display: inline;
-    margin-right: 30px;
+}
+
+.main-nav li:not(:last-child){
+    
 }
 
 .introbtn{
-    color: #2b05ff;
+    color: #FAFF00;
 }
 
-/*------------------------Main content----------------------------*/
-.main-content{
-    margin: 0 auto;
-    padding: 20px;
-}
-.preview-content{
-    font-family: 'PT Serif Caption', serif;
-    text-align: center;
-    margin-bottom: 30px;
-}
-.preview-content p{
-    color: rgb(51, 22, 212);
-    font-size: 20px;
-}
-.video-demo{
-    text-align: center;
-}
-/*------------------------About us----------------------------*/
-.about-us{
-    text-align: center;
-    font-family: 'Indie Flower';
-    margin-bottom: 0;
-    color: black;
+.avt{
+    font-size: 40px;
+    color:#FAFF00;
+    cursor: pointer;
 }
 
 /*---------------------------Footer-------------------------------*/
